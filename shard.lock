@@ -1,0 +1,14 @@
+version: 2.0
+shards:
+  cryst_glut:
+    git: https://github.com/tachomex/cryst_glut.git
+    version: 0.1.1+git.commit.acce329111ecba54b8de8b70d724ca38cb33ca93
+
+  lib_glut:
+    git: https://github.com/neutrinog/lib_glut.git
+    version: 0.2.0+git.commit.0cb3fae1f174f10ae71e035bb07da7f142da257d
+
+  opengl:
+    git: https://github.com/icy-arctic-fox/opengl.cr.git
+    version: 3.3.0+git.commit.1a7d49f5d3f8add1a904e95a674f50148b4449f0
+

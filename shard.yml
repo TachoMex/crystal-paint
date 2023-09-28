@@ -1,0 +1,22 @@
+name: paint
+version: 0.1.0
+
+authors:
+  - Gilberto Vargas <tachoguitar@gmail.com>
+
+targets:
+  paint:
+    main: src/paint.cr
+  main:
+    main: main.cr
+dependencies:
+  opengl:
+    github: icy-arctic-fox/opengl.cr
+    branch: gl-3.3-compatibility
+  cryst_glut:
+    git: https://github.com/tachomex/cryst_glut.git
+
+crystal: 1.5.0
+
+license: MIT
+
